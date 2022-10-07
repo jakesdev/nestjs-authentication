@@ -1,11 +1,11 @@
-create mongodb database - 1 hour
-create crud mongoose - 1 hour
-setup google api/ callback function - 1 hour
-setup auth base code nestjs (core, jwt guard, generate jwt, .env,...) - 3 hours
-setup route register/login/ google direction - 1 hour
-setup apple sign in callback - 1 hour
-validation sign up, sign in - 1 hour
+init base code (core, config...) 1 hours
+create mongodb cloud, create crud mongoose with nestjs 1 hours
+create authentication module (jwt,generate token, verify token) 1 hours
+create register/login function (register with email and password,...) 1 hour
+create jwt, auth guard 1 hour
+setup google api/ callback function/ sign in with google - research 2 hours, config 1 hour
+setup apple api/ callback function/ sign in with apple - research 2 hours, config 1 hour
+create function add google user, apple user to mongo db (at first login) 1 hour
 testing - 1 hour
 
-
-total = 10
+total 13hour

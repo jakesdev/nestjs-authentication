@@ -59,7 +59,6 @@ export class AuthService {
 
   async appleLogin(req) {
     const user = await this.jwtService.decode(req.id_token);
-    console.log(user);
     if (!user) {
       throw new NotFoundException('Not found Apple User!!');
     }

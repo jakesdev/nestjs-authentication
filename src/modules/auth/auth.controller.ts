@@ -60,7 +60,6 @@ export class AuthController {
   @Get('me')
   @UseGuards(AuthGuard())
   async getLoggedInUser(@CurrentUser() user): Promise<User> {
-    console.log(user);
     return user;
   }
 }
